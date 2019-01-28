@@ -1,0 +1,41 @@
+{
+    "objectives": [{
+        "originIdentifier": "",
+        "title": "",
+        "description": "",
+        "keyResults": [{
+            "originIdentifier": "",
+            "title": "",
+            "description": "",
+            "confidence": "",
+            "aspirational": false,
+            
+            "leadBy": [{
+                "name": "",
+                "email": ""
+            }],
+            "statusGroups": [{
+                "title": "",
+                "items": [{
+                    "title": "",
+                    "description": "",
+                    "originSystem": "",
+                    "originIdentifier": "",
+                    "labels": [
+                        ""
+                    ]
+                }]
+            }],
+            "metrics": [{
+                "type": "Number",
+                "target": 0,
+                "current": 0,
+                "date": 0
+            }]
+        }],
+        "resources": [{
+            "type": "Url",
+            "data": ""
+        }]
+    }]
+}

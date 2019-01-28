@@ -1,0 +1,35 @@
+{
+  "fec063e5-eb9b-4ce4-9652-22b76bee3d64": {
+    "commands": {},
+    "events": {},
+    "eventSources": {},
+    "readModels": {
+      "2aabeb26-36df-4d84-8ea1-9e3e07fb5622": {
+        "generation": 1,
+        "type": "Read.Insight.Resource, Read"
+      },
+      "e0a47373-07a3-4641-8363-8cc7768f0eb7": {
+        "generation": 1,
+        "type": "Read.Insight.Objective, Read"
+      },
+      "054047b0-850a-4b9a-9258-b31c4687128b": {
+        "generation": 1,
+        "type": "Read.Insight.KeyResult, Read"
+      },
+      "ec0c178d-518e-4ef8-9e92-dfbae426b3ff": {
+        "generation": 1,
+        "type": "Read.Insight.Period, Read"
+      }
+    },
+    "queries": {
+      "c19ed8c9-7336-40ab-a5b2-1a3138969228": {
+        "generation": 1,
+        "type": "Read.Insight.ObjectivesForPeriod, Read"
+      },
+      "08ef9479-8e83-4fd6-8970-49f87f6d6fea": {
+        "generation": 1,
+        "type": "Read.Insight.CurrentAndFuturePeriods, Read"
+      }
+    }
+  }
+}

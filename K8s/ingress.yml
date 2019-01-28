@@ -1,0 +1,15 @@
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: continuousimprovement
+  namespace: dolittle
+spec:
+  rules:
+  - host: continuousimprovement.dolittle.studio
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: continuousimprovement
+          servicePort: 80
