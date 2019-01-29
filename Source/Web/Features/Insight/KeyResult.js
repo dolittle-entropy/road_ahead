@@ -17,6 +17,7 @@ export class KeyResult extends ReadModel
         this.description = '';
         this.confidence = 0;
         this.leadBy = [];
+        this.epics = [];
         this.statusGroups = [];
         this.metrics = [];
     }

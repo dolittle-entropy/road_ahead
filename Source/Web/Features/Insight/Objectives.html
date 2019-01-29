@@ -1,10 +1,31 @@
 <template>
     <require from="./Objectives.scss"></require>
 
-    
+    <table>
+        <tbody>
+            <tr>
+                <td repeat.for="objective of objectives">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="${objective.keyResults.length}">${objective.title}</td>
+                            </tr>
+                            <tr>
+                                <td repeat.for="keyResult of objective.keyResults">${keyResult.title}</td>
+                            </tr>
+
+                            <tr repeat.for="line of objective.epicLines">
+                                <td repeat.for="epic of line.epics">${epic.title} - ${epic.percentComplete}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 
-    
 
 
     <!--
@@ -41,5 +62,5 @@
         - In Progress
         - Done
     -->
-    
+
 </template>

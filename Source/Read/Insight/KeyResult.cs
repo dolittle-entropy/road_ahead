@@ -8,6 +8,7 @@ using Dolittle.ReadModels;
 
 namespace Read.Insight
 {
+
     /// <summary>
     /// Represents a key result for an <see cref="Objective"/>
     /// </summary>
@@ -37,6 +38,11 @@ namespace Read.Insight
         /// Gets or sets the leaders of the <see cref="KeyResult"/>
         /// </summary>
         public IEnumerable<Person> LeadBy { get; set; }
+
+        /// <summary>
+        /// Gets or sets the epics
+        /// </summary>
+        public IEnumerable<Epic> Epics { get; set; }
 
         /// <summary>
         /// Gets or sets the <see cref="StatusGroup">status groups</see> in the <see cref="KeyResult"/>

@@ -11,7 +11,5 @@ export class ObjectivesForPeriod extends Query
         this.nameOfQuery = 'ObjectivesForPeriod';
         this.generatedFrom = 'Read.Insight.ObjectivesForPeriod';
 
-        this.start = new Date();
-        this.end = new Date();
     }
 }
